@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 540" fill="none" role="img" aria-label="古筝琴弦与筝码的局部裁切构图，品牌主视觉">
+<ellipse cx="360" cy="500" rx="320" ry="40" fill="#23211E" opacity="0.04"/>
+<rect x="-40" y="430" width="800" height="2" fill="#23211E" opacity="0.18"/>
+<rect x="-40" y="436" width="800" height="1" fill="#23211E" opacity="0.10"/>
+<line x1="60" y1="-30" x2="60" y2="580" stroke="#23211E" stroke-opacity="0.1" stroke-width="1"/>
+<line x1="130" y1="-30" x2="130" y2="580" stroke="#23211E" stroke-opacity="0.1" stroke-width="1"/>
+<line x1="200" y1="-30" x2="200" y2="580" stroke="#23211E" stroke-opacity="0.12" stroke-width="1"/>
+<line x1="270" y1="-30" x2="270" y2="580" stroke="#23211E" stroke-opacity="0.12" stroke-width="1"/>
+<line x1="340" y1="-30" x2="340" y2="580" stroke="#5C6B5A" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="410" y1="-30" x2="410" y2="580" stroke="#23211E" stroke-opacity="0.12" stroke-width="1"/>
+<line x1="480" y1="-30" x2="480" y2="580" stroke="#23211E" stroke-opacity="0.12" stroke-width="1"/>
+<line x1="550" y1="-30" x2="550" y2="580" stroke="#23211E" stroke-opacity="0.1" stroke-width="1"/>
+<line x1="620" y1="-30" x2="620" y2="580" stroke="#23211E" stroke-opacity="0.1" stroke-width="1"/>
+<path d="M520 350 L552 350 L536 318 Z" fill="#5C6B5A" opacity="0.75"/>
+<path d="M160 372 L210 372 L185 280 Z" fill="#5C6B5A"/>
+<line x1="160" y1="372" x2="210" y2="372" stroke="#23211E" stroke-opacity="0.45" stroke-width="1.5"/>
+<path d="M395 380 L435 380 L415 305 Z" fill="#5C6B5A" opacity="0.92"/>
+<line x1="395" y1="380" x2="435" y2="380" stroke="#23211E" stroke-opacity="0.45" stroke-width="1.5"/>
+<path d="M560 -20 Q 720 20 760 60" stroke="#23211E" stroke-opacity="0.06" stroke-width="40" fill="none"/>
+</svg>

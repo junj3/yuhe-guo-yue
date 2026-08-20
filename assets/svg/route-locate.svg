@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none" role="img" aria-label="位置意象：极简路线与位置点">
+<path d="M-20 230 Q 240 200 500 240" stroke="#23211E" stroke-opacity="0.05" stroke-width="1.4" fill="none"/>
+<path d="M-20 270 Q 240 250 500 280" stroke="#23211E" stroke-opacity="0.05" stroke-width="1.4" fill="none"/>
+<path d="M40 320 L120 260 L200 290 L260 230 L340 250" stroke="#23211E" stroke-opacity="0.32" stroke-width="1.2" fill="none"/>
+<circle cx="320" cy="200" r="58" fill="none" stroke="#5C6B5A" stroke-opacity="0.30" stroke-width="1"/>
+<circle cx="320" cy="200" r="36" fill="none" stroke="#5C6B5A" stroke-opacity="0.55" stroke-width="1"/>
+<circle cx="320" cy="200" r="8" fill="#5C6B5A"/>
+<circle cx="320" cy="200" r="3" fill="#F7F5F0"/>
+</svg>

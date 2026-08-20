@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" fill="none" role="img" aria-label="古筝弦与筝码的局部视觉叙事">
+<ellipse cx="260" cy="320" rx="260" ry="28" fill="#23211E" opacity="0.04"/>
+<rect x="-30" y="270" width="540" height="2" fill="#23211E" opacity="0.18"/>
+<line x1="80" y1="-20" x2="80" y2="380" stroke="#23211E" stroke-opacity="0.12" stroke-width="1"/>
+<line x1="140" y1="-20" x2="140" y2="380" stroke="#23211E" stroke-opacity="0.12" stroke-width="1"/>
+<line x1="200" y1="-20" x2="200" y2="380" stroke="#5C6B5A" stroke-opacity="0.55" stroke-width="1"/>
+<line x1="260" y1="-20" x2="260" y2="380" stroke="#23211E" stroke-opacity="0.12" stroke-width="1"/>
+<line x1="320" y1="-20" x2="320" y2="380" stroke="#23211E" stroke-opacity="0.12" stroke-width="1"/>
+<line x1="380" y1="-20" x2="380" y2="380" stroke="#23211E" stroke-opacity="0.12" stroke-width="1"/>
+<line x1="440" y1="-20" x2="440" y2="380" stroke="#23211E" stroke-opacity="0.1" stroke-width="1"/>
+<path d="M170 230 L208 230 L189 170 Z" fill="#5C6B5A"/>
+<line x1="170" y1="230" x2="208" y2="230" stroke="#23211E" stroke-opacity="0.45" stroke-width="1.2"/>
+<path d="M360 -10 Q 470 30 510 80" stroke="#23211E" stroke-opacity="0.06" stroke-width="28" fill="none"/>
+</svg>

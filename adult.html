@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <script>document.documentElement.classList.add('js');</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>古筝 | 聿禾國乐古筝艺术中心</title>
+  <meta name="description" content="古筝——成人与少儿的不同学习入口。聿禾國乐古筝艺术中心位于深圳南山，由聿禾文化（深圳）有限公司实际运营。">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:title" content="古筝 | 聿禾國乐古筝艺术中心">
+  <meta property="og:description" content="成人学古筝与少儿学古筝：成人与少儿的不同学习入口。">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <!--
+    结构化数据实体 @id 策略（部署前必读）：
+    - 当前本地预览：使用相对锚点 @id（#yuhe-culture / #yuhe-guoyue），四页完全一致。
+    - 正式域名确定后：全站四页统一替换为同一组绝对 @id，不得让不同页面生成不同实体 ID：
+        Organization  -> https://最终域名/#yuhe-culture
+        LocalBusiness -> https://最终域名/#yuhe-guoyue
+    - 同时建议为各实体补写 "url" 字段，指向其对应页面的绝对地址。
+  -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Organization",
+        "@id": "#yuhe-culture",
+        "name": "聿禾文化（深圳）有限公司",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "广东省",
+          "addressLocality": "深圳市南山区",
+          "addressCountry": "CN"
+        }
+      },
+      {
+        "@type": "LocalBusiness",
+        "@id": "#yuhe-guoyue",
+        "name": "聿禾國乐古筝艺术中心",
+        "alternateName": "聿禾国乐古筝艺术中心",
+        "description": "聿禾國乐古筝艺术中心是位于深圳市南山区的古筝文化空间，面向成人与少儿古筝学习者。",
+        "address": {
+          "@type": "PostalAddress",
+          "addressRegion": "广东省",
+          "addressLocality": "深圳市南山区",
+          "addressCountry": "CN"
+        },
+        "parentOrganization": { "@id": "#yuhe-culture" }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要内容</a>
+
+  <header class="site-header">
+    <div class="wrap nav-bar">
+      <a class="brand" href="index.html" aria-label="聿禾國乐古筝艺术中心 首页">
+        <img class="brand-mark" src="assets/svg/brand-mark.svg" alt="">
+        聿禾國乐
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="打开导航菜单">
+        <span class="bars"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于</a>
+        <a href="adult.html" aria-current="page">古筝</a>
+        <a href="contact.html">位置与到店</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- Hero · 古筝 · 成人与少儿的不同学习入口 -->
+    <section class="hero">
+      <div class="wrap wrap--wide hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow reveal">古筝</p>
+          <h1 class="display reveal">古筝</h1>
+          <p class="lead reveal">成人与少儿的不同学习入口。</p>
+        </div>
+        <div class="hero-visual reveal">
+          <img class="instrument" src="assets/svg/guzheng-hero.svg" alt="古筝琴弦与筝码的局部裁切构图，品牌主视觉">
+        </div>
+      </div>
+    </section>
+
+    <!-- 成人学古筝 · 三联（已确认事实，不含试听/课程/零基础承诺） -->
+    <section class="section" id="adult-section" aria-labelledby="adult-h">
+      <div class="wrap wrap--wide">
+        <p class="eyebrow reveal">壹</p>
+        <h2 id="adult-h" class="reveal">成人学古筝</h2>
+        <p class="reveal" style="max-width:38em;">面向成年古筝学习者。在忙碌的生活里，为兴趣，也为自己留一张琴的位置。</p>
+        <div class="tri">
+          <div class="tri-item reveal">
+            <h3>一个爱好</h3>
+            <p>古筝可以是一件可以长久相处的事。</p>
+          </div>
+          <div class="tri-item reveal">
+            <h3>一种专注</h3>
+            <p>二十一根弦之间，注意力慢下来，时间也慢下来。</p>
+          </div>
+          <div class="tri-item reveal">
+            <h3>一段文化</h3>
+            <p>与传统器物相处，也是与东方音乐文化重新照面。</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 少儿学古筝 · 真实业务说明（无虚构课程/等级/年龄） -->
+    <section class="section section--tint" id="children-section" aria-labelledby="children-h">
+      <div class="wrap wrap--wide">
+        <p class="eyebrow reveal">贰</p>
+        <h2 id="children-h" class="reveal">少儿学古筝</h2>
+        <p class="reveal" style="max-width:38em;">聿禾國乐同时提供面向少儿的古筝相关服务。</p>
+        <ul class="facts" style="margin-top:2rem; max-width:640px;">
+          <li class="reveal"><span class="k">客群</span><span class="v">少儿与成人</span></li>
+          <li class="reveal"><span class="k">业务内容</span><span class="v">少儿古筝相关服务</span></li>
+          <li class="reveal"><span class="k">所在区域</span><span class="v">广东省深圳市南山区</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 大字号地域（深圳 / 南山） -->
+    <section class="section section--tint" aria-labelledby="region">
+      <div class="wrap wrap--wide geo-grid">
+        <div class="geo-type reveal">
+          <span class="geo-cn">深圳</span>
+          <span class="geo-cn-sub">NANSHAN</span>
+        </div>
+        <div class="geo-info">
+          <p class="eyebrow reveal">在哪里</p>
+          <h2 id="region" class="reveal">我们位于深圳南山</h2>
+          <p class="reveal">可在地图平台搜索「聿禾國乐」查看位置。</p>
+          <p class="reveal"><a class="btn" href="contact.html">位置与到店</a></p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p class="foot-brand">聿禾國乐古筝艺术中心</p>
+      <p>简体写法：聿禾国乐古筝艺术中心</p>
+      <p>运营主体：聿禾文化（深圳）有限公司</p>
+      <p>广东 · 深圳 · 南山</p>
+      <nav class="foot-nav" aria-label="页脚导航">
+        <a href="index.html">首页</a>
+        <a href="about.html">关于</a>
+        <a href="adult.html">古筝</a>
+        <a href="contact.html">位置与到店</a>
+      </nav>
+      <p class="fineprint">运营主体：聿禾文化（深圳）有限公司<br>© 2026 聿禾文化（深圳）有限公司</p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

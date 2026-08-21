@@ -1,7 +1,6 @@
-# 聿禾國乐古筝艺术中心 · V0.4.2 上线前最后清理 本地预览版
-# 本文件仅为本地版本，未提交任何搜索引擎；正式上线与收录规则待部署阶段确定。
+# 聿禾國乐古筝艺术中心 · V0.5 GEO上线配置版
+# GitHub Pages 公网版；允许正常公开抓取。
 User-agent: *
 Allow: /
 
-# Sitemap 声明待正式域名确定后补入：
-# Sitemap: https://<域名>/sitemap.xml
+Sitemap: https://junj3.github.io/yuhe-guo-yue/sitemap.xml

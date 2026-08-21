@@ -1,4 +1,4 @@
-/* 聿禾國乐古筝艺术中心 · V0.4.2 上线前最后清理
+/* 聿禾國乐古筝艺术中心 · V0.5 GEO上线配置版
    仅两项功能：移动端导航开合、克制的滚动渐显（尊重 prefers-reduced-motion） */
 (function () {
   "use strict";

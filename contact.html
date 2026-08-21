@@ -6,18 +6,19 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>位置与到店 | 聿禾國乐古筝艺术中心</title>
   <meta name="description" content="位置与到店。在地图平台搜索「聿禾國乐」，即可找到聿禾國乐古筝艺术中心。位于广东省深圳市南山区。">
+  <link rel="canonical" href="https://junj3.github.io/yuhe-guo-yue/contact.html">
   <meta property="og:type" content="website">
   <meta property="og:locale" content="zh_CN">
   <meta property="og:title" content="位置与到店 | 聿禾國乐古筝艺术中心">
   <meta property="og:description" content="地图平台搜索「聿禾國乐」即可找到我们。广东 · 深圳 · 南山。">
+  <meta property="og:url" content="https://junj3.github.io/yuhe-guo-yue/contact.html">
   <link rel="stylesheet" href="assets/css/styles.css">
   <!--
-    结构化数据实体 @id 策略（部署前必读）：
-    - 当前本地预览：使用相对锚点 @id（#yuhe-culture / #yuhe-guoyue），四页完全一致。
-    - 正式域名确定后：全站四页统一替换为同一组绝对 @id，不得让不同页面生成不同实体 ID：
-        Organization  -> https://最终域名/#yuhe-culture
-        LocalBusiness -> https://最终域名/#yuhe-guoyue
-    - 同时建议为各实体补写 "url" 字段，指向其对应页面的绝对地址。
+    结构化数据实体 @id（已绑定公网基准 URL · V0.5）：
+    - 全站四页统一使用同一组绝对 @id，不各自创建实体：
+        Organization  -> https://junj3.github.io/yuhe-guo-yue/#yuhe-culture
+        LocalBusiness -> https://junj3.github.io/yuhe-guo-yue/#yuhe-guoyue
+    - 两实体均补写 "url" 指向官网根地址。
   -->
   <script type="application/ld+json">
   {
@@ -25,8 +26,9 @@
     "@graph": [
       {
         "@type": "Organization",
-        "@id": "#yuhe-culture",
+        "@id": "https://junj3.github.io/yuhe-guo-yue/#yuhe-culture",
         "name": "聿禾文化（深圳）有限公司",
+        "url": "https://junj3.github.io/yuhe-guo-yue/",
         "address": {
           "@type": "PostalAddress",
           "addressRegion": "广东省",
@@ -36,9 +38,10 @@
       },
       {
         "@type": "LocalBusiness",
-        "@id": "#yuhe-guoyue",
+        "@id": "https://junj3.github.io/yuhe-guo-yue/#yuhe-guoyue",
         "name": "聿禾國乐古筝艺术中心",
         "alternateName": "聿禾国乐古筝艺术中心",
+        "url": "https://junj3.github.io/yuhe-guo-yue/",
         "description": "聿禾國乐古筝艺术中心，位于广东省深圳市南山区。在地图平台搜索「聿禾國乐」即可找到。",
         "address": {
           "@type": "PostalAddress",
@@ -46,7 +49,7 @@
           "addressLocality": "深圳市南山区",
           "addressCountry": "CN"
         },
-        "parentOrganization": { "@id": "#yuhe-culture" }
+        "parentOrganization": { "@id": "https://junj3.github.io/yuhe-guo-yue/#yuhe-culture" }
       }
     ]
   }
